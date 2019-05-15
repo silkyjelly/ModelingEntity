@@ -12,6 +12,10 @@
 		689E56DB228BE779003ECE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689E56D9228BE779003ECE17 /* Main.storyboard */; };
 		689E56DD228BE779003ECE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689E56DC228BE779003ECE17 /* Assets.xcassets */; };
 		689E56E0228BE779003ECE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689E56DE228BE779003ECE17 /* LaunchScreen.storyboard */; };
+		689E56E8228BE7D7003ECE17 /* coffeemachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E56E7228BE7D7003ECE17 /* coffeemachine.swift */; };
+		689E56EA228C0342003ECE17 /* machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E56E9228C0342003ECE17 /* machine.swift */; };
+		689E56EC228C052F003ECE17 /* roundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E56EB228C052F003ECE17 /* roundedButton.swift */; };
+		689E56EE228C0904003ECE17 /* AttributedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E56ED228C0904003ECE17 /* AttributedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		689E56DC228BE779003ECE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		689E56DF228BE779003ECE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		689E56E1228BE779003ECE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689E56E7228BE7D7003ECE17 /* coffeemachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeemachine.swift; sourceTree = "<group>"; };
+		689E56E9228C0342003ECE17 /* machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = machine.swift; sourceTree = "<group>"; };
+		689E56EB228C052F003ECE17 /* roundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundedButton.swift; sourceTree = "<group>"; };
+		689E56ED228C0904003ECE17 /* AttributedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		689E56C9228BE779003ECE17 = {
 			isa = PBXGroup;
 			children = (
+				689E56E7228BE7D7003ECE17 /* coffeemachine.swift */,
+				689E56E9228C0342003ECE17 /* machine.swift */,
 				689E56D4228BE779003ECE17 /* ModelingEntity */,
 				689E56D3228BE779003ECE17 /* Products */,
 			);
@@ -57,6 +67,8 @@
 				689E56D5228BE779003ECE17 /* AppDelegate.swift */,
 				689E56D7228BE779003ECE17 /* ViewController.swift */,
 				689E56D9228BE779003ECE17 /* Main.storyboard */,
+				689E56ED228C0904003ECE17 /* AttributedButton.swift */,
+				689E56EB228C052F003ECE17 /* roundedButton.swift */,
 				689E56DC228BE779003ECE17 /* Assets.xcassets */,
 				689E56DE228BE779003ECE17 /* LaunchScreen.storyboard */,
 				689E56E1228BE779003ECE17 /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				689E56D8228BE779003ECE17 /* ViewController.swift in Sources */,
+				689E56EE228C0904003ECE17 /* AttributedButton.swift in Sources */,
+				689E56EC228C052F003ECE17 /* roundedButton.swift in Sources */,
+				689E56EA228C0342003ECE17 /* machine.swift in Sources */,
 				689E56D6228BE779003ECE17 /* AppDelegate.swift in Sources */,
+				689E56E8228BE7D7003ECE17 /* coffeemachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
